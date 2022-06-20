@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #0d192b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  background: #14253d;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 8px 8px 8px 8px #08111b;
+          box-shadow: 8px 8px 8px 8px #08111b;
+}
+
+.card .divisao1 {
+  margin-bottom: 20px;
+}
+
+.card .divisao1 h1 {
+  font-size: 20px;
+  color: white;
+  margin: 15px 0;
+}
+
+.card .divisao1 h2 {
+  font-size: 18px;
+  color: #8bacda;
+  font-weight: 400;
+}
+
+.card .divisao1 img {
+  margin: 0 auto;
+  width: 260px;
+  height: 250px;
+}
+
+.card .divisao2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card .divisao2 .imagem1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.card .divisao2 .imagem1 img {
+  margin-right: 6px;
+}
+
+.card .divisao2 .imagem1 h3 {
+  font-size: 15px;
+  color: #00fff7;
+  font-weight: 400;
+}
+
+.card .divisao2 .imagem2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.card .divisao2 .imagem2 img {
+  margin-right: 6px;
+}
+
+.card .divisao2 .imagem2 h3 {
+  font-size: 15px;
+  color: #8bacda;
+  font-weight: 400;
+}
+
+.card .barra {
+  margin: 15px 0;
+}
+
+.card .barra span {
+  color: grey;
+}
+
+.card .final {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .final img {
+  width: 30px;
+  height: 30x;
+  margin-right: 10px;
+}
+
+.card .final h3 {
+  font-size: 15px;
+  color: #8bacda;
+  font-weight: 400;
+}
+
+.card .final span {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
