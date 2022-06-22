@@ -1,3 +1,5 @@
+@import 'variables';
+
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +7,10 @@
 }
 
 body {
-    background-color: hsl(217, 54%, 11%);
+    background-color: $dark-blue-main;
+    font-family: 'Outfit', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-family: 'Outfit', sans-serif;
+    min-width: 100vh;
 }
